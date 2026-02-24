@@ -178,7 +178,6 @@ import StarRating from '../components/icons/StarRating.vue';
     .containerImage {
         min-width: 20vw;   
         max-height: 60vh;
-        height: auto;
         display: flex;
         margin: 5rem;
         align-items: center;       
@@ -284,6 +283,22 @@ import StarRating from '../components/icons/StarRating.vue';
         0% { opacity: .4 }
         50% { opacity: 1 }
         100% { opacity: .4 }
+    }
+
+    @media (max-width: 640px) {
+        
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15rem;
+    }
+    .containerImage {
+        margin: 0;
+    }
+    .description {
+        font-size:3vw;
+        margin-bottom: 0;
+    }
     }
     
 
