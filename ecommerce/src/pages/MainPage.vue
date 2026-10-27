@@ -154,6 +154,8 @@ import StarRating from '../components/icons/StarRating.vue';
     .flex-col{
         display: flex;
         flex-direction: column;
+        flex: 1;
+        min-width: 0;
     }
     .wrapper {
         display: flex;
@@ -172,22 +174,24 @@ import StarRating from '../components/icons/StarRating.vue';
         padding: 1rem;
         position: relative;
         z-index: 1;
+        align-items: stretch;
     }
 
 
     .containerImage {
-        min-width: 20vw;   
-        max-height: 60vh;
+        width: 40%;
+        height: 60vh;
+        flex-shrink: 0;
         display: flex;
-        margin: 5rem;
-        align-items: center;       
-        justify-content: center;   
+        margin: 2rem;
+        align-items: center;
+        justify-content: center;
         overflow: hidden;
     }
 
     .containerImage img {
-        max-width: 100%;
-        max-height: 100%;
+        width: 100%;
+        height: 100%;
         object-fit: contain;
     }
 
@@ -206,8 +210,8 @@ import StarRating from '../components/icons/StarRating.vue';
     }
 
     .description {
-        font-size:1vw;
-        margin-bottom: 10rem;
+        font-size: 1vw;
+        margin-bottom: 1rem;
     }
 
     .price {
@@ -242,6 +246,7 @@ import StarRating from '../components/icons/StarRating.vue';
 
     .bottom{
         margin-top: auto;
+        flex-shrink: 0;
     }
 
     .container.theme-men {
