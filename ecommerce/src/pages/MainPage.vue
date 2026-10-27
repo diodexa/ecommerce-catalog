@@ -302,7 +302,7 @@ import StarRating from '../components/icons/StarRating.vue';
     }
     .description {
         font-size:3vw;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
     }
     
