@@ -180,7 +180,7 @@ import StarRating from '../components/icons/StarRating.vue';
 
     .containerImage {
         width: 40%;
-        height: 60vh;
+        height: 60 vh;
         flex-shrink: 0;
         display: flex;
         margin: 2rem;
