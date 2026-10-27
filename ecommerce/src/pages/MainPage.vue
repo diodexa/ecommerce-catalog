@@ -273,7 +273,7 @@ import StarRating from '../components/icons/StarRating.vue';
     /* image */
     .sk-img {
         width: 22rem;
-        height: 100%;
+        height: 100%; 
     }
 
     /* title */
